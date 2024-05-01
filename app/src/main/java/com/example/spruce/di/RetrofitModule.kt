@@ -14,7 +14,7 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object RetrofitModule {
-
+//
     @Provides
     fun provideBaseUrl(): String = "https://spruce.hestawork.com/"
 
